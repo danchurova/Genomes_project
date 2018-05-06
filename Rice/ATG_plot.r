@@ -1,4 +1,5 @@
-snps=read.table('snp_strict_filter.txt',header=T)
+setwd("~/Genomes_project/Rice")
+snps=read.table('./data/snp_strict_filter.txt',header=T)
 colnames(snps)[c(2,3)]=c('snp_position','snp_chrom')
 
 #подгружаем дату, которую сгенерила Таня
@@ -55,6 +56,7 @@ temp_graph_df_minus$V2=rev(temp_graph_df_minus$V2) #reverse minus-strand
 colnames(temp_graph_df_minus)=c("V1","minus")
 
 
+
 graph_df=temp_graph_df_plus
 graph_df[,2]=graph_df[,2]+temp_graph_df_minus[,2]
 graph_df[,2]=graph_df[,2]/20367*1000
@@ -79,3 +81,4 @@ curren_nucl=subset(plot_df_final,V3=="1")
 lines(curren_nucl$V1,curren_nucl$V2,col=alpha('blue', 0.3))
 points(curren_nucl$V1,curren_nucl$V2,col=alpha('blue', 0.3),pch=20)
 legend("bottomright", c("1st base","2nd base","3st base"),fill=c("red","blue","darkgreen"))
+

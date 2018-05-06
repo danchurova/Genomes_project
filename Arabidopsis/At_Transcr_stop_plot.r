@@ -1,8 +1,8 @@
-snps=read.table('./data/snp_strict_filter.txt',header=T)
+snps=read.table('./data/SNPS.txt',header=T)
 colnames(snps)[c(2,3)]=c('snp_position','snp_chrom')
 
 #подгружаем дату, которую сгенерила Таня
-atg=read.table("./data/ATGs.txt",sep="\t",header=T)
+atg=read.table("./data/ATGs_arabidopsis.txt",sep="\t",header=T)
 atg$Start=atg$FRAG_STOP-300
 atg$End=atg$FRAG_STOP+300
 atg$X=NULL
@@ -82,4 +82,4 @@ points(curren_nucl$V1,curren_nucl$V2,col=alpha('darkgreen', 0.5),pch=20)
 curren_nucl=subset(plot_df_final,V3=="1")
 lines(curren_nucl$V1,curren_nucl$V2,col=alpha('blue', 0.3))
 points(curren_nucl$V1,curren_nucl$V2,col=alpha('blue', 0.3),pch=20)
-legend("bottomright", c("1st base","2nd base","3st base"),fill=c("red","blue","darkgreen"))
+legend("bottomleft", c("1st base","2nd base","3st base"),fill=c("red","blue","darkgreen"))
