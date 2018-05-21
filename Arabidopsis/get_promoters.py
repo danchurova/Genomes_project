@@ -10,8 +10,8 @@ with open('./data/promoters_arab.bed', 'w') as tss:
         if strand == "+":
             prom_start = int(start)-500
             prom_end = int(start)+500
-            tss.write("{}\t{}\t{}\t{}\t{}\n".format(chrom, prom_start, prom_end,description, model))
+            tss.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(chrom, prom_start, prom_end, description, model, strand))
         elif strand == "-":
-            prom_start = int(stop)+500
-            prom_end = int(stop)-500
-            tss.write("{}\t{}\t{}\t{}\t{}\n".format(chrom, prom_start, prom_end,description, model))
+            prom_start = int(stop)-500
+            prom_end = int(stop)+500
+            tss.write("{}\t{}\t{}\t{}\t{}\t{}\n".format(chrom, prom_start, prom_end, description, model, strand))
