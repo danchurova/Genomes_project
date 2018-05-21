@@ -13,4 +13,4 @@ Data:
 1. Graphs for *Arabidopsis thaliana* as done for *Oryza sativa* [[1](https://www.ncbi.nlm.nih.gov/pubmed/27774999)]
 * gff3 file (**TAIR10_GFF3_genes.gff**) was taken [here](https://www.arabidopsis.org/download/index-auto.jsp?dir=%2Fdownload_files%2FGenes%2FTAIR10_genome_release%2FTAIR10_gff3)
 2. [vcf file 1001 genome TAIR]()
-3. *A. thaliana* reference genome (TAIR10_toplevel) was taken from [here](ftp://ftp.ensemblgenomes.org/pub/plants/release-39/fasta/arabidopsis_thaliana/dna/)
+3. *A. thaliana* reference genome (TAIR10_toplevel) was taken from ftp://ftp.ensemblgenomes.org/pub/plants/release-39/fasta/arabidopsis_thaliana/dna/
