@@ -1,7 +1,8 @@
 setwd("~/Genomes_project/Arabidopsis")
-snps=read.table('./data/SNPS.txt',header=T, sep=',')
+snps=read.table('./data/SNPs_all.txt',header=T, sep='\t')
 snps$global = snps$coords 
-snps$coords.1 <- NULL
+snps$X <- NULL
+#snps <- snps[-nrow(snps),]
 colnames(snps)[c(2,3)]=c('snp_position','snp_chrom')
 
 #подгружаем дату, которую сгенерила Таня
