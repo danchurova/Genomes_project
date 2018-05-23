@@ -13,6 +13,8 @@ with open('./data/arab_anno_fin.txt', 'w') as anno:
             continue
         if kind == "exon" or kind == "five_prime_UTR" or kind == "CDS" or kind == "three_prime_UTR":
             model = name
+            anno.write('"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\n'.format(counter, model, chrom, kind, start, stop, strand, name, "", chrom, start, stop, strand, name, start))
+            counter += 1
         elif kind != "chromosome" or kind != "gene":
             model = name.split(';')[1].split('=')[1]
             anno.write('"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\t"{}"\n'.format(counter, model, chrom, kind, start, stop, strand, name, "", chrom, start, stop, strand, name, start))
