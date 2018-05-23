@@ -20,16 +20,16 @@ Data:
 1. annotation (.gff) and assemly (.fasta) from http://www.medicagogenome.org/downloads
 
 
-**Scripts:**
+* Scripts:
 1. get_ATGs.py
 2. get_4tss.py
 4. get_promoters.py
 3. get_fin_anno.py <br>
 <br>
- **Usage:**
- * to create file with ATGs: ``` python3 get_ATGs.py annotation.gff ```
- * to create file with tss: ``` python3 get_4tss.py annotation.gff ```
- * to create files with promoter regions (.bed + .txt): ``` python3 get_promoters.py 4tss.txt ```
- * to obtain promoter regions sequences: ``` sed 's/^>1.*$/>Chr1/' Arabidopsis_thaliana.TAIR10.dna.toplevel.fa | sed 's/^>2.*$/>Chr2/' | sed 's/^>3.*$/>Chr3/'| sed 's/^>4.*$/>Chr4/'| sed 's/^>5.*$/>Chr5/'| sed 's/^>Mt.*$/>ChrM/'| sed 's/^>Pt.*$/>ChrC/' > new_ref.fa ``` in order to get names of chromosomes in fasta consistent with names in bed file, then ``` bedtools getfasta -fi corrected_reference.fasta -bed promoters.bed -name -s -fo promoters_sequences.fasta ```
- * to create fin_anno: ``` python3 get_fin_anno.py annotation.gff ```
+ * Usage: <br>
+ 1. to create file with ATGs: ```python3 get_ATGs.py annotation.gff``` <br>
+ 2. to create file with tss: ```python3 get_4tss.py annotation.gff``` <br>
+ 3. to create files with promoter regions (.bed + .txt): ``` python3 get_promoters.py 4tss.txt ``` <br>
+ 4. to obtain promoter regions sequences: ``` sed 's/^>1.*$/>Chr1/' Arabidopsis_thaliana.TAIR10.dna.toplevel.fa | sed 's/^>2.*$/>Chr2/' | sed 's/^>3.*$/>Chr3/'| sed 's/^>4.*$/>Chr4/'| sed 's/^>5.*$/>Chr5/'| sed 's/^>Mt.*$/>ChrM/'| sed 's/^>Pt.*$/>ChrC/' > new_ref.fa ``` in order to get names of chromosomes in fasta consistent with names in bed file, then ``` bedtools getfasta -fi corrected_reference.fasta -bed promoters.bed -name -s -fo promoters_sequences.fasta ``` <br>
+ 5. to create fin_anno: ``` python3 get_fin_anno.py annotation.gff ``` <br>
   
