@@ -9,7 +9,7 @@ Find correlation between sequence features and functional regions in different g
 4. Consider outcomes for promoter prediction for complex and not annotated genomes
 
 
-Data:
+Data: <br>
 *Arabidopsis thaliana*
 1. Graphs for *Oryza sativa* [[1](https://www.ncbi.nlm.nih.gov/pubmed/27774999)]
 2. gff3 file (**TAIR10_GFF3_genes.gff**) was taken [here](https://www.arabidopsis.org/download/index-auto.jsp?dir=%2Fdownload_files%2FGenes%2FTAIR10_genome_release%2FTAIR10_gff3)
