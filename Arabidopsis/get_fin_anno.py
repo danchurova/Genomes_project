@@ -9,8 +9,7 @@ with open('./data/arab_anno_fin.txt', 'w') as anno:
     counter = 1
     for line in data.readlines():
         chrom, _, kind, start, stop, _, strand, _, name = line.strip().split('\t')
-        print(kind,name)
-        if kind == "pseudogene" or kind == "pseudogenic_transcript" or kind == "pseudogenic_exon":
+        if kind == "pseudogene" or kind == 'chromosome' or kind == "pseudogenic_transcript" or kind == "pseudogenic_exon":
             continue
         if kind == "exon" or kind == "five_prime_UTR" or kind == "CDS" or kind == "three_prime_UTR":
             model = name
