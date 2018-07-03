@@ -4,8 +4,8 @@ import sys
 
 data = open(sys.argv[1])
 
-with open('./data/promoters_arab.bed', 'w') as tss:
-    with open('./data/Promoters_final_arab.txt', 'w') as promoters:
+with open('./data/promoters_mt.bed', 'w') as tss:
+    with open('./data/Promoters_final_mt.txt', 'w') as promoters:
         promoters.write("{}\t{}\t{}\t{}\n".format("CHROM", "MODEL", "TSS", "STRAND"))
         for line in data.readlines():
             chrom, start, stop, strand, description, model = line.strip().split('\t')
