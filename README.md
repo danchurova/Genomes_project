@@ -21,6 +21,10 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 1. annotation (.gff) and assemly (.fasta) from http://www.medicagogenome.org/downloads
 2. SNP files also from http://www.medicagogenome.org/downloads
 
+#### *Homo sapiens*
+1. annotation [Release 28 (GRCh38.p12)](https://www.gencodegenes.org/releases/current.html) (all) in .gtf format
+2. [.fasta of protein-coding transcripts](https://www.gencodegenes.org/releases/current.html)
+
 
 ### Scripts for data preprocessing:
 1. get_ATGs.py
