@@ -49,17 +49,17 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 
 ### Several results:
 1. *Arabidopsis thaliana*
-  ![](https://raw.githubusercontent.com/danchurova/Genomes_project/master/Arabidopsis/pictures/OKintron_exon_junction_arab.jpeg?raw=true)
+  ![](https://raw.githubusercontent.com/danchurova/Genomes_project/master/Arabidopsis_thaliana/pictures/OKintron_exon_junction_arab.jpeg?raw=true)
   
-![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis/pictures/OK-ATG.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis_thaliana/pictures/OK-ATG.jpeg?raw=true)
 
-![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis/pictures/OKpromoter-terminator-arab.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis_thaliana/pictures/OKpromoter-terminator-arab.jpeg?raw=true)
 
-![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis/pictures/sp_cells-total.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis_thaliana/pictures/sp_cells-total.jpeg?raw=true)
 
-![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis/pictures/veg-cell-total.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis_thaliana/pictures/veg-cell-total.jpeg?raw=true)
 
 2. *Medicago truncata*
-![](https://github.com/danchurova/Genomes_project/blob/master/Medicago/pictures/ATG.jpeg?raw=true)
-![](https://github.com/danchurova/Genomes_project/blob/master/Medicago/pictures/intron_exon_med.jpeg?raw=true)
-![](https://github.com/danchurova/Genomes_project/blob/master/Medicago/pictures/promoter-terminator-med.png?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncata/pictures/ATG.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncata/pictures/intron_exon_med.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncata/pictures/promoter-terminator-med.png?raw=true)
