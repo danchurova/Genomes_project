@@ -59,7 +59,7 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 
 ![](https://github.com/danchurova/Genomes_project/blob/master/Arabidopsis_thaliana/pictures/veg-cell-total.jpeg?raw=true)
 
-2. *Medicago truncata*
-![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncata/pictures/ATG.jpeg?raw=true)
-![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncata/pictures/intron_exon_med.jpeg?raw=true)
-![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncata/pictures/promoter-terminator-med.png?raw=true)
+2. *Medicago truncatula*
+![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncatula/pictures/ATG.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncatula/pictures/intron_exon_med.jpeg?raw=true)
+![](https://github.com/danchurova/Genomes_project/blob/master/Medicago_truncatula/pictures/promoter-terminator-med.png?raw=true)
