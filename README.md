@@ -1,5 +1,5 @@
 # Genomes_project
-## Statistical analysis of genomes
+## Statistical analysis of annotated genomes
 ### Goals and objectives
 Find correlation between genomic features (like SNPs, methylation, TFBS) and functional genomic regions in different genomes
 
@@ -24,6 +24,17 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 #### *Homo sapiens*
 1. annotation [Release 28 (GRCh38.p12)](https://www.gencodegenes.org/releases/current.html) (CHR) in .gff3 format
 2. [.fasta of primary assembly (PRI)](https://www.gencodegenes.org/releases/current.html)
+
+#### *Mus musculus*
+1. annotation [Release M17 (GRCm38.p6)](https://www.gencodegenes.org/mouse_releases/current.html) (CHR) in .gff3 format
+2. [.fasta of primary assembly (PRI)](https://www.gencodegenes.org/mouse_releases/current.html)
+
+#### *Felis catus*
+1. annotation [assembly Felis_catus_9.0](https://www.ncbi.nlm.nih.gov/genome?term=felis%20catus) in .gff format (ID 78)
+2. [.fasta of assembly 9.0](https://www.ncbi.nlm.nih.gov/genome?term=felis%20catus) (ID 78)
+
+
+
 
 
 ### Scripts for data preprocessing:
