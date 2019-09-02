@@ -1,8 +1,4 @@
-/Arabidopsis_thaliana/data
-/Oryza_sativa/data
-/Medicago_truncatula/data
-/Homo_sapiens/data
-/Mus_musculus/data
+/*/data
 .Rhistory
 .RData
 *.txt
