@@ -33,6 +33,9 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 1. annotation [assembly Felis_catus_9.0](https://www.ncbi.nlm.nih.gov/genome?term=felis%20catus) in .gff format (ID 78)
 2. [.fasta of assembly 9.0](https://www.ncbi.nlm.nih.gov/genome?term=felis%20catus) (ID 78)
 
+#### *Drosophila melanogaster*
+1. [.fasta of release-97 (Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa.gz)](ftp://ftp.ensembl.org/pub/release-97/fasta/drosophila_melanogaster/dna/)
+
 
 
 
