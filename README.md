@@ -10,12 +10,12 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 
 
 ### Data:
+Graphs for *Oryza sativa* [[1](https://www.ncbi.nlm.nih.gov/pubmed/27774999)]
 #### *Arabidopsis thaliana*
-1. Graphs for *Oryza sativa* [[1](https://www.ncbi.nlm.nih.gov/pubmed/27774999)]
-2. gff3 file (**TAIR10_GFF3_genes.gff**) was taken [here](https://www.arabidopsis.org/download/index-auto.jsp?dir=%2Fdownload_files%2FGenes%2FTAIR10_genome_release%2FTAIR10_gff3)
-2. [vcf file 1001 genome TAIR]()
-3. *A. thaliana* reference genome (TAIR10_toplevel) was taken from ftp://ftp.ensemblgenomes.org/pub/plants/release-39/fasta/arabidopsis_thaliana/dna/
-4. methylation data was taken from https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105000
+1. reference genome [TAIR10_toplevel](ftp://ftp.ensemblgenomes.org/pub/plants/release-39/fasta/arabidopsis_thaliana/dna/)
+2. annotation [**TAIR10_GFF3_genes.gff3**](https://www.arabidopsis.org/download/index-auto.jsp?dir=%2Fdownload_files%2FGenes%2FTAIR10_genome_release%2FTAIR10_gff3)
+2. variation [vcf file 1001 genome TAIR]()
+4. [methylation data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105000)
 
 #### *Medicago truncata*
 1. annotation (.gff) and assemly (.fasta) from http://www.medicagogenome.org/downloads
@@ -34,7 +34,14 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 2. [.fasta of assembly 9.0](https://www.ncbi.nlm.nih.gov/genome?term=felis%20catus) (ID 78)
 
 #### *Drosophila melanogaster*
-1. [.fasta of release-97 (Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa.gz)](ftp://ftp.ensembl.org/pub/release-97/fasta/drosophila_melanogaster/dna/)
+1. reference [assembly dmel_r5.57_FB2014_03 from FlyBase, **dmel-all-chromosome-r5.57.fasta.gz**](ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/dmel_r5.57_FB2014_03/fasta/)
+2. annotation [dmel_r5.57_FB2014_03 **dmel-all-filtered-r5.57.gff.gz**](ftp://ftp.flybase.net/genomes/Drosophila_melanogaster/dmel_r5.57_FB2014_03/gff/)
+3. variation downloaded for each chromosome for all populations in one file in .vcf format[PopFly Browser](https://popfly.uab.cat) [Hervas S, Sanz E, Casillas S, Pool JE, and Barbadilla A (2017) PopFly: the Drosophila population genomics browser.
+Bioinformatics, 33, 2779-2780;](https://doi.org/10.1093/bioinformatics/btx301)
+
+
+#### *Danio rerio*
+1. 
 
 
 
@@ -43,8 +50,9 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 ### Scripts for data preprocessing:
 1. get_ATGs.py
 2. get_4tss.py
+3. get_4tts.py
 4. get_promoters.py
-3. get_fin_anno.py 
+5. get_fin_anno.py 
 
 ### Data preprocessing:
 1. to create file with ATGs: ``` python3 get_ATGs.py annotation.gff ``` 
