@@ -12,7 +12,7 @@ Find correlation between genomic features (like SNPs, methylation, TFBS) and fun
 ### Data:
 Graphs for *Oryza sativa* [[1](https://www.ncbi.nlm.nih.gov/pubmed/27774999)]
 #### *Arabidopsis thaliana*
-1. reference genome [TAIR10_toplevel](ftp://ftp.ensemblgenomes.org/pub/plants/release-39/fasta/arabidopsis_thaliana/dna/)
+1. reference genome TAIR10_toplevel (ftp://ftp.ensemblgenomes.org/pub/plants/release-39/fasta/arabidopsis_thaliana/dna/)
 2. annotation [**TAIR10_GFF3_genes.gff3**](https://www.arabidopsis.org/download/index-auto.jsp?dir=%2Fdownload_files%2FGenes%2FTAIR10_genome_release%2FTAIR10_gff3)
 2. variation [vcf file 1001 genome TAIR]()
 4. [methylation data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105000)
