@@ -2,3 +2,4 @@
 .Rhistory
 .RData
 *.txt
+/all_promoters_for TRANSFAC

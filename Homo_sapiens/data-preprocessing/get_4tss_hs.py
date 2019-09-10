@@ -4,7 +4,7 @@ import sys
 
 data = open(sys.argv[1])
 
-with open('./data/4tss_transcripts_hs.txt', 'w') as tss:
+with open('../data/outputs/4tss_transcripts_hs.txt', 'w') as tss:
     tss.write("{}\t{}\t{}\t{}\t{}\t{}\n".format('CHROM','FRAG_START','FRAG_STOP', 'STRAND', 'DESCRIPTION', 'MODEL'))
     for line in data.readlines():
         if line[0] == '#':
